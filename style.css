@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --cor-de-fundo-um: #cbffff;
+    --cor-de-fundo-dois: #fff9f1;
+    --cor-de-fonte-um: #a52a2a;
+    --cor-de-fonte-dois: #00008B;
+}
+
+body{
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+.conteudo-principal{
+    background-color: var(--cor-de-fundo-um);
+    color: var(--cor-de-fonte-dois);
+}
+
+.cabecalho{
+    background-color: var(--cor-de-fundo-dois);
+    color: var(--cor-de-fonte-um);
+    padding: 24pt;
+}
+
+.rodape{
+    background-color: var(--cor-de-fundo-dois);
+    color: var(--cor-de-fonte-um);
+    padding: 24pt;
+}
+
+.botao{
+    background-color: #fff9f1;
+    font-family: "Ubuntu";
+}
+
+.ativo{
+    background-color: #cbffff;
+    font-family: "Ubuntu";
+}
+
+.botoes {
+    display: block;
+}
+
+.aba-conteudo.ativo{
+    display: block;  
+    background-color: #cbffff; 
+}
+
+.aba-conteudo{
+    display: none;
+}
